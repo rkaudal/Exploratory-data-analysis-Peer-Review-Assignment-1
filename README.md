@@ -2,7 +2,9 @@
  The goal behind this exercise is to implement the knowledge that we learned in the beginning section of this course.
  The trifecta of this exercise: 
  1. Data and its nature 2. Load the data set 3. Plot/communicate the results
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 #                                                                                Section-1
 1.1 Where is the data taken from?
 The source is accredited to the UC Irvine Machine Learning Repository, a popular repository for machine learning datasets.
@@ -23,7 +25,9 @@ Different electrical quantities and some sub-metering values are available.
 7. Sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
 8. Sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.
 9. Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 #                                                                               Section-2
 2.1 What factors need to be taken into account while loading the data?
 The number of rows and columns: 2,05,259 and 9 respectively. Rule of thumb is to check how much memory needs to be allocated before reading the file into R.
@@ -33,7 +37,9 @@ The number of rows and columns: 2,05,259 and 9 respectively. Rule of thumb is to
 1. striptime() 2. as.Date() in converting data and time variable to Date/Time domain in R.
 2.4 How are missing values coded?
 with symbol ?
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 #                                                                             Section-3
 3.1 Please reitertae the principal goal on making these plots.
 To examine how household energy usage varies over a 2 day period in February 2007. These information will be conveyed by making various plots using the base plotting system
@@ -48,6 +54,8 @@ R code file (plot1.R, plot2.R corresponding to each of the png file.
 3.6 What are thus must in the code file?
 It should be able to read the data and reproduced the plot. You must also include the code that creates the PNG file.
 3.7 Where will these files be stored?
-In the top level folder of the github repository.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+In the top level folder of the github repo
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 When done please push your repository tho Github so that Github version of your repository is up to date. There should be four PNG files and four R code files with total of 8 files in the top folder of your repo.
